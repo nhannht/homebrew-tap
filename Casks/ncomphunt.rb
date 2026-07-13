@@ -2,8 +2,7 @@ cask "ncomphunt" do
   version "0.1.0"
   sha256 "8e69fe825a0f521c7d63803ab9d27456cf143afe3906955ede55cf580b3c80e2"
 
-  url "https://github.com/nhannht/ncomphunt/releases/download/v#{version}/ncomphunt-#{version}.dmg",
-      verified: "github.com/nhannht/ncomphunt/"
+  url "https://github.com/nhannht/ncomphunt/releases/download/v#{version}/ncomphunt-#{version}.dmg"
   name "nCompHunt"
   desc "Indexer for competitions, CTFs, hackathons, and design contests"
   homepage "https://github.com/nhannht/ncomphunt"
@@ -13,7 +12,7 @@ cask "ncomphunt" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "nCompHunt.app"
 
