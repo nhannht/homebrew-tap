@@ -1,6 +1,6 @@
 cask "ncomphunt" do
-  version "0.2.0"
-  sha256 "3e335088a73c7cd52cf18c2a4cf336611d3de90519ae7fd62a76ecb239f76faa"
+  version "0.3.0"
+  sha256 "cb8bea9bd25a5260cb452af535d8b266ad50ddaca97782147b80ff1c26a13f4a"
 
   url "https://github.com/nhannht/ncomphunt/releases/download/v#{version}/ncomphunt-#{version}.dmg"
   name "nCompHunt"
@@ -17,8 +17,9 @@ cask "ncomphunt" do
   app "nCompHunt.app"
 
   zap trash: [
-    "~/Library/Application Support/nCompHunt",
+    "~/Library/Application Support/CompHunt",
     "~/Library/Caches/com.nhannht.ncomphunt",
+    "~/Library/Group Containers/V3P5U9Z68M.group.com.nhannht.ncomphunt",
     "~/Library/HTTPStorages/com.nhannht.ncomphunt",
     "~/Library/Preferences/com.nhannht.ncomphunt.plist",
     "~/Library/Saved Application State/com.nhannht.ncomphunt.savedState",
