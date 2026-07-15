@@ -1,6 +1,6 @@
 cask "ncomphunt" do
-  version "0.1.0"
-  sha256 "8e69fe825a0f521c7d63803ab9d27456cf143afe3906955ede55cf580b3c80e2"
+  version "0.2.0"
+  sha256 "3e335088a73c7cd52cf18c2a4cf336611d3de90519ae7fd62a76ecb239f76faa"
 
   url "https://github.com/nhannht/ncomphunt/releases/download/v#{version}/ncomphunt-#{version}.dmg"
   name "nCompHunt"
